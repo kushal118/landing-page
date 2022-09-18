@@ -36,7 +36,7 @@ const phone = document.querySelector('#phone')
  * Start Helper Functions
  * 
  */
-function createLink(listText, anchorLink) {
+function addLinks(listText, anchorLink) {
     let anchorTag = document.createElement('a');
     anchorTag.href = anchorLink;
     anchorTag.innerHTML = listText;
@@ -55,7 +55,7 @@ function createLink(listText, anchorLink) {
 // build the nav
 allSection.forEach(section => {
     let listItem = document.createElement('li');
-    let linkListItem = createLink(section.dataset.nav, section.dataset.nav);
+    let linkListItem = addLinks(section.dataset.nav, section.dataset.nav);
     linkListItem.classList.add('menu__link');
     listItem.appendChild(linkListItem)
     mainNavUl.appendChild(listItem)
