@@ -45,11 +45,7 @@ function addLinks(listText, anchorLink) {
 
 
 
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
- */
+
 
 
 // build the nav
@@ -89,7 +85,6 @@ document.addEventListener('scroll', function () {
 
 
 
-// Scroll to anchor ID using scrollTO event
 const listTags = document.querySelectorAll('ul a');
 
 // Scroll smooth to section on link click
@@ -109,17 +104,10 @@ listTags.forEach(listTag => {
     })
 });
 
-/**
- * End Main Functions
- * Begin Events
- * 
- */
 
-// Build menu 
 
-// Scroll to section on link click
 
-// Set sections as active
+
 // Put alert when someone submit form
 form.addEventListener('submit', (e) => {
     e.preventDefault();
