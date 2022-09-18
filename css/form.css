@@ -1,13 +1,16 @@
-fieldset{
+fieldset {
     border: 3px solid rgb(226, 238, 54);
 }
-fieldset>legend{
+
+fieldset>legend {
     color: rgb(226, 238, 54)
 }
-p>label{
+
+p>label {
     display: block;
 }
-input{
+
+input {
     border-radius: 4px;
-    
+
 }

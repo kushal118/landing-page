@@ -244,7 +244,8 @@ section.your-active-class .landing__container::after {
     textarea {
         width: 100%;
     }
-    form{
+
+    form {
         margin-top: 20px;
     }
 }
